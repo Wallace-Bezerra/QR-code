@@ -1,0 +1,35 @@
+@import url("./variables.css");
+
+body {
+  height: 100vh;
+  background-color: var(--Light-gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: var(--white);
+  width: 260px;
+  height: 400px;
+  border-radius: 20px;
+  padding: 18px;
+  padding-bottom: 28px;
+}
+
+.qrcode img {
+  border-radius: 12px;
+  width: 100%;
+}
+
+.info h1 {
+  font-size: 20px;
+  text-align: center;
+  color: var(--Dark-blue);
+  font-weight: 700;
+}
+.info p {
+  font-size: 15px;
+  text-align: center;
+  color: var(--grayish-blue);
+  font-weight: 400;
+}
